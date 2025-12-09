@@ -162,11 +162,7 @@ const App: React.FC = () => {
                   </div>
                 </form>
 
-                {/* Info for Database Setup (Dev only hint) */}
-                <div className="mt-8 p-4 bg-blue-50 text-blue-800 text-xs rounded border border-blue-100">
-                  <p className="font-bold mb-1">Database Setup Required:</p>
-                  <p>Ensure your Supabase table <code>assessments</code> exists with columns: <code>name (text)</code>, <code>email (text)</code>, <code>phone (text)</code>, <code>result_type (text)</code>, <code>leadership_score (int)</code>, <code>team_building_score (int)</code>.</p>
-                </div>
+              
               </motion.div>
             )}
 
