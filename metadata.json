@@ -1,0 +1,5 @@
+{
+  "name": "Team Leadership Assessment",
+  "description": "An automated assessment tool to evaluate leadership and team-building needs, integrating with Supabase and SendGrid for results processing.",
+  "requestFramePermissions": []
+}
